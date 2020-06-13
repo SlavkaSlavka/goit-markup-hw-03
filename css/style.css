@@ -122,7 +122,10 @@ header {
   border: 1px solid transparent;
 }
 .galery {
-  background-image: url(/img/Header-img.jpg);
+  background: url(/img/Header-img.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 /* Особенности после главной картинки*/
 .features {
