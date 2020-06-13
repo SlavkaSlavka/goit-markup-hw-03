@@ -1,0 +1,218 @@
+:root {
+  --akcent-color: #2196f3;
+  --help-color: #ffffff;
+  --text-color: #757575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: #e5e5e5;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+/*общие заголовки Ш-2*/
+general-heading {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/*логотип*/
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-help {
+  color: var(--akcent-color);
+}
+/*навигация*/
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav-link:hover,
+.site-nav-link:focus,
+.site-nav-link:active {
+  color: var(--akcent-color);
+}
+.main {
+  color: var(--akcent-color);
+}
+.contacts {
+  color: var(--text-color);
+}
+/*эффективные решения*/
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--help-color);
+}
+.main-button {
+  background-color: var(--akcent-color);
+  color: var(--help-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* Особенности после главной картинки*/
+.features-item {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  text-transform: none;
+  color: var(--text-color);
+}
+.features-img {
+  background-color: #f5f4fa;
+}
+.features-title {
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/*чем мы занимаемся*/
+.job-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--help-color);
+}
+/*наша команда*/
+.signature {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  font-weight: 500;
+}
+
+.team-text {
+  color: var(--text-color);
+}
+.team-icon {
+  color: #afb1b8;
+}
+.team-icon:hover,
+.team-icon:focus {
+  color: var(--help-color);
+  background-color: var(--akcent-color);
+}
+/*постоянные клиенты*?????????????????????????????????????????????????/
+
+/*подвал*/
+.main-footer {
+  color: var(--help-color);
+  background-color: #2f303a;
+}
+
+.secondary-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.secondary-logo-help {
+  color: var(--akcent-color);
+}
+.main-footer-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.main-footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: var(--akcent-color);
+  color: var(--help-color);
+}
+.text-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.main-footer-under {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/*portfolio*/
+.filter-button {
+  background: #f5f4fa;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--akcent-color);
+  color: var(--help-color);
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.portfolio-description {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--help-color);
+}
+
+/*основной текст color: #212121; */
+/* цвет текста color: #757575; */
+/* цвет лого color: #000000;*/
+/*цвет вспомогательный color: #FFFFFF;*/
+/* akcent background: #2196F3; */
+/*цвет девелопер color: rgba(255, 255, 255, 0.4); */
+/* fon background: #E5E5E5;*/
+/* fon-help background: #F5F4FA; */
