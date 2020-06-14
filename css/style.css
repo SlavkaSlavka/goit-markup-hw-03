@@ -379,7 +379,7 @@ address .main-footer-list li:not(:last-child) {
   letter-spacing: 0.06em;
   margin-top: 20px;
   margin-bottom: 5px;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 .portfolio-text {
   margin: 0;
@@ -388,7 +388,7 @@ address .main-footer-list li:not(:last-child) {
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 20px;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 .portfolio-description {
   margin: 0;
@@ -396,7 +396,8 @@ address .main-footer-list li:not(:last-child) {
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--help-color);
-  margin-left: 24px;
+  padding-left: 24px;
+  background-color: var(--akcent-color);
 }
 .card-filter {
   margin-top: 95px;
