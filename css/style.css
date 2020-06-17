@@ -11,6 +11,10 @@ body {
   background-color: #e5e5e5;
   color: #212121;
 }
+img {
+  display: block;
+  box-sizing: border-box;
+}
 .container {
   width: 1230px;
   padding-left: 15px;
@@ -152,8 +156,8 @@ header {
   margin: 0;
   text-transform: none;
   color: var(--text-color);
-  padding-bottom: 15px;
-  padding-top: 15px;
+  font-style: 14px;
+  line-height: 25px;
 }
 .features-img {
   background-color: #f5f4fa;
@@ -165,8 +169,8 @@ header {
   line-height: 1.23;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 /*чем мы занимаемся*/
 .job {
@@ -182,9 +186,10 @@ header {
 .job-list li {
   width: 370px;
 }
-
+.job-list img {
+  display: block;
+}
 .job-title {
-  margin: 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -195,6 +200,7 @@ header {
   padding-bottom: 25px;
   padding-top: 25px;
   background-color: rgba(47, 48, 58, 0.8);
+  margin: 0;
 }
 /*наша команда*/
 .signature {
@@ -226,31 +232,37 @@ header {
 }
 .team-title {
   font-weight: 500;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .icon-list {
   width: 270px;
-  padding-top: 15px;
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 25px;
+  justify-content: space-between;
   padding-right: 30px;
   padding-left: 30px;
+  text-align: center;
 }
 .icon-list li {
   width: 44px;
 }
+.icon-list li:not(:last-child) {
+  margin-right: 10px;
+}
+.team-list-item {
+  padding-bottom: 25px;
+}
 .team-text {
   color: var(--text-color);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team-icon {
   color: #afb1b8;
   line-height: 44px;
 }
-.icon-list li:not(:last-child) {
-  padding-right: 10px;
+
+.team-list li img {
+  display: block;
 }
 .team-icon:hover,
 .team-icon:focus {
@@ -286,6 +298,7 @@ header {
 .main-footer {
   color: var(--help-color);
   background-color: #2f303a;
+  padding-top: 45px;
 }
 .main-footer .container {
   display: flex;
@@ -344,8 +357,9 @@ address .main-footer-list li:not(:last-child) {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
   margin: 0;
-  padding-top: 45px;
+  padding-top: 18px;
   padding-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .help-icon ul {
   display: flex;
@@ -358,14 +372,12 @@ address .main-footer-list li:not(:last-child) {
   width: 44px;
   line-height: 44px;
 }
-.wrapper {
-  margin-top: 55px;
-}
 
 .help-container {
-  margin-top: 45px;
+  padding-top: 10px;
   width: 230px;
   margin-right: 70px;
+  padding-bottom: 28px;
 }
 .help-icon {
   width: 206px;
@@ -392,19 +404,16 @@ address .main-footer-list li:not(:last-child) {
   color: var(--help-color);
 }
 .portfolio-title {
-  width: 370px;
   margin: 0;
   display: block;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
   padding-left: 26px;
 }
 .portfolio-text {
   box-sizing: border-box;
-  width: 370px;
   margin: 0;
   font-size: 16px;
   line-height: 2;
@@ -424,8 +433,8 @@ address .main-footer-list li:not(:last-child) {
   background-color: var(--akcent-color);
 }
 .card-filter {
-  margin-top: 95px;
-  margin-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 .hidden {
   display: none;
@@ -470,10 +479,13 @@ address .main-footer-list li:not(:last-child) {
   margin-top: 30px;
 }
 .BORDER {
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 /*основной текст color: #212121; */
