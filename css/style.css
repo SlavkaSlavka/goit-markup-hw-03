@@ -302,6 +302,7 @@ header {
 }
 .main-footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .secondary-logo {
